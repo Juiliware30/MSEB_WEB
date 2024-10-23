@@ -167,44 +167,62 @@
 
             <!-- BOX INFO WITH NUMBER COUNT-UP ANIMATION -->
 
-<!-- BOX INFO WITH NUMBER COUNT-UP ANIMATION -->
-<ul class="box-info grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- BOX INFO WITH LIGHT COLOR AND ICONS -->
+<ul class="box-info grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
+    <!-- 1st Row, Light Blue -->
     <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-wrench text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for No of Interruptions -->
-        <span class="text ml-4">
-            <h3 id="interruptions" class="text-xl sm:text-2xl lg:text-3xl font-bold">0</h3>
-            <p class="text-sm sm:text-base lg:text-lg">No of Interruptions</p>
+        <span class="bg-blue-100 p-2 sm:p-3 rounded">
+            <i class='bx bxs-wrench text-blue-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'></i> <!-- Light Blue Icon -->
+        </span>
+        <span class="text ml-2 sm:ml-4">
+            <h3 id="interruptions" class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">0</h3>
+            <p class="text-xs sm:text-sm md:text-base lg:text-lg">No of Interruptions</p>
         </span>
     </li>
+    <!-- 1st Row, Light Yellow -->
     <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-analyse text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for Diagnostic Progress -->
-        <span class="text ml-4">
-            <h3 id="diagnosticProgress" class="text-xl sm:text-2xl lg:text-3xl font-bold">0%</h3>
-            <p class="text-sm sm:text-base lg:text-lg">Diagnostic Progress</p>
+        <span class="bg-yellow-100 p-2 sm:p-3 rounded">
+            <i class='bx bxs-analyse text-yellow-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'></i> <!-- Light Yellow Icon -->
         </span>
-    </li>
-    <li class="flex items-center col-span-2 sm:col-span-2 lg:col-span-1">
-        <i class='bx bxs-cog text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for Work in Progress -->
-        <span class="text ml-4">
-            <h3 id="workInProgress" class="text-xl sm:text-2xl lg:text-3xl font-bold">0</h3>
-            <p class="text-sm sm:text-base lg:text-lg">Work in Progress</p>
+        <span class="text ml-2 sm:ml-4">
+            <h3 id="diagnosticProgress" class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">0%</h3>
+            <p class="text-xs sm:text-sm md:text-base lg:text-lg">Diagnostic Progress</p>
         </span>
     </li>
 </ul>
 
-<ul class="box-info grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+<ul class="box-info grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 mt-4 sm:mt-6">
+    <!-- 2nd Row, Light Red -->
     <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-check-circle text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for System Availability -->
-        <span class="text ml-4">
-            <h3 id="systemAvailability" class="text-xl sm:text-2xl lg:text-3xl font-bold">0%</h3>
-            <p class="text-sm sm:text-base lg:text-lg">System Availability</p>
+        <span class="bg-red-100 p-2 sm:p-3 rounded">
+            <i class='bx bxs-cog text-red-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'></i> <!-- Light Red Icon -->
+        </span>
+        <span class="text ml-2 sm:ml-4">
+            <h3 id="workInProgress" class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">0</h3>
+            <p class="text-xs sm:text-sm md:text-base lg:text-lg">Work in Progress</p>
         </span>
     </li>
+    <!-- 2nd Row, Light Pink -->
     <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-hourglass text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for ELR Carried Out -->
-        <span class="text ml-4">
-            <h3 id="elr" class="text-xl sm:text-2xl lg:text-3xl font-bold">0</h3>
-            <p class="text-sm sm:text-base lg:text-lg">ELR Carried Out in Current Month (Hours)</p>
+        <span class="bg-pink-100 p-2 sm:p-3 rounded">
+            <i class='bx bxs-check-circle text-pink-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'></i> <!-- Light Pink Icon -->
+        </span>
+        <span class="text ml-2 sm:ml-4">
+            <h3 id="systemAvailability" class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">0%</h3>
+            <p class="text-xs sm:text-sm md:text-base lg:text-lg">System Availability</p>
+        </span>
+    </li>
+</ul>
+
+<ul class="box-info grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 mt-4 sm:mt-6">
+    <!-- 3rd Row, Light Green -->
+    <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
+        <span class="bg-green-100 p-2 sm:p-3 rounded">
+            <i class='bx bxs-hourglass text-green-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'></i> <!-- Light Green Icon -->
+        </span>
+        <span class="text ml-2 sm:ml-4">
+            <h3 id="elr" class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">0</h3>
+            <p class="text-xs sm:text-sm md:text-base lg:text-lg">ELR Carried Out in Current Month (Hours)</p>
         </span>
     </li>
 </ul>
