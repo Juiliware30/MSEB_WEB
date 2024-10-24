@@ -168,6 +168,26 @@
             <!-- BOX INFO WITH NUMBER COUNT-UP ANIMATION -->
 
 <!-- BOX INFO WITH NUMBER COUNT-UP ANIMATION -->
+
+
+<ul class="box-info grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+    <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
+        <i class='bx bxs-check-circle text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for System Availability -->
+        <span class="text ml-4">
+            <h3 id="systemAvailability" class="text-xl sm:text-2xl lg:text-3xl font-bold">0%</h3>
+            <p class="text-sm sm:text-base lg:text-lg">System Availability</p>
+        </span>
+    </li>
+    <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
+        <i class='bx bxs-hourglass text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for ELR Carried Out -->
+        <span class="text ml-4">
+            <h3 id="elr" class="text-xl sm:text-2xl lg:text-3xl font-bold">0</h3>
+            <p class="text-sm sm:text-base lg:text-lg">ELR Carried Out in Current Month (Hours)</p>
+        </span>
+    </li>
+</ul>
+
+
 <ul class="box-info grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
         <i class='bx bxs-wrench text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for No of Interruptions -->
@@ -191,24 +211,6 @@
         </span>
     </li>
 </ul>
-
-<ul class="box-info grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-    <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-check-circle text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for System Availability -->
-        <span class="text ml-4">
-            <h3 id="systemAvailability" class="text-xl sm:text-2xl lg:text-3xl font-bold">0%</h3>
-            <p class="text-sm sm:text-base lg:text-lg">System Availability</p>
-        </span>
-    </li>
-    <li class="flex items-center col-span-2 sm:col-span-1 lg:col-span-1">
-        <i class='bx bxs-hourglass text-4xl sm:text-5xl lg:text-6xl'></i> <!-- Icon for ELR Carried Out -->
-        <span class="text ml-4">
-            <h3 id="elr" class="text-xl sm:text-2xl lg:text-3xl font-bold">0</h3>
-            <p class="text-sm sm:text-base lg:text-lg">ELR Carried Out in Current Month (Hours)</p>
-        </span>
-    </li>
-</ul>
-
 <script type="text/javascript">
     function animateCounter(id, start, end, duration) {
         const element = document.getElementById(id);
